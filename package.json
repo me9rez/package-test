@@ -1,6 +1,6 @@
 {
   "name": "@deepgis/package-test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "auto release package test",
   "type": "module",
   "exports":{
