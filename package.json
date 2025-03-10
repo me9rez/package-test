@@ -1,7 +1,7 @@
 {
   "name": "@deepgis/package-test",
-  "version": "0.0.1",
-  "description": "auto realease package test",
+  "version": "0.0.2",
+  "description": "auto release package test",
   "type": "module",
   "exports":{
     ".":{
