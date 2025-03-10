@@ -1,6 +1,6 @@
 {
   "name": "@deepgis/package-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "auto release package test",
   "type": "module",
   "exports":{
@@ -17,6 +17,5 @@
   },
   "keywords": [],
   "author": "me9rez",
-  "license": "MIT",
-  "packageManager": "pnpm@10.6.1"
+  "license": "MIT"
 }
