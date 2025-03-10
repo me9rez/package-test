@@ -3,19 +3,24 @@
   "version": "0.0.6",
   "description": "auto release package test",
   "type": "module",
-  "exports":{
-    ".":{
-      "import":"./dist/index.js"
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
     }
   },
-
   "scripts": {
-    "test": "pnpm -v && npm -v && node -v"
+    "test": "pnpm -v && npm -v && node -v",
+    "release": "release-it"
   },
   "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org",
     "@deepgis:registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "me9rez",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "release-it": "^18.1.2"
+  }
 }
