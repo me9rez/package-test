@@ -21,6 +21,7 @@
   "author": "me9rez",
   "license": "MIT",
   "devDependencies": {
-    "release-it": "^18.1.2"
+    "release-it": "^18.1.2",
+    "typescript": "^5.8.2"
   }
 }
