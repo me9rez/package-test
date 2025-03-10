@@ -1,6 +1,6 @@
 {
   "name": "@deepgis/package-test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "auto release package test",
   "type": "module",
   "exports":{
@@ -10,7 +10,7 @@
   },
 
   "scripts": {
-    "test": ""
+    "test": "pnpm -v && npm -v && node -v"
   },
   "publishConfig": {
     "@deepgis:registry": "https://npm.pkg.github.com"
