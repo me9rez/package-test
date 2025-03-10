@@ -1,6 +1,6 @@
 {
   "name": "@deepgis/package-test",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "auto realease package test",
   "type": "module",
   "exports":{
@@ -13,8 +13,7 @@
     "test": ""
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "@deepgis:registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "me9rez",
