@@ -2,25 +2,41 @@
   "name": "@deepgis/package-test",
   "version": "0.0.7",
   "description": "auto release package test",
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "author": "me9rez",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "pnpm -v && npm -v && node -v",
-    "release": "release-it"
+    "build": "bunchee",
+    "prepublishOnly": "pnpm run build",
+    "release": "release-it",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "bunchee": "^6.5.0",
+    "release-it": "^18.1.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "keywords": [],
-  "author": "me9rez",
-  "license": "MIT",
-  "devDependencies": {
-    "release-it": "^18.1.2",
-    "typescript": "^5.8.2"
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "esbuild"
+    ]
   }
 }

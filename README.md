@@ -1,9 +1,17 @@
 # @deepgis/package-test
 
-自动发布npm包的测试模块
+发布到npm的测试包
 
 ## 安装
 
 ```bash
 pnpm add @deepgis/package-test
+```
+
+## 使用
+
+```js
+import { sum } from '@deepgis/package-test'
+
+sum(1,1)
 ```
