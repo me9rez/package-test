@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { sum } from '../src'
+import { sum } from '../dist'
 
 describe('sum test', () => {
     it('1+1', () => {

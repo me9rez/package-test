@@ -7,7 +7,8 @@ export default {
     push: true
   },
   github: {
-    release: true
+    release: true,
+    releaseName:"v${version}"
   },
   npm: {
     publish: true
