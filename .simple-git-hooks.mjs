@@ -1,3 +1,3 @@
 export default {
-  'pre-commit': 'pnpm -v'
+  'pre-commit': 'node -v && npm -v'
 }
