@@ -32,3 +32,6 @@ test-temp-*
 
 # ignore directory for artifacts produced by tests
 test-results/
+
+.gemini/
+gha-creds-*.json
